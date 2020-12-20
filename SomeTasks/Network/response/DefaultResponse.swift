@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import Foundation
+/// Default response to check for every request since this's how this api works.
+struct DefaultResponse: Codable, CodableInit , LocalizedError {
+    var success : Bool
+    var error : errorData?
+    
+}
+struct errorData: Codable {
+    let code: Int
+    let info: String
+}
