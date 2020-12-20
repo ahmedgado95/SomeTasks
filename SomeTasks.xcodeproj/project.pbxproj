@@ -258,12 +258,9 @@
 		F8CDDD86258F8E7B00C7678B /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				F8CDDDBD258F910E00C7678B /* Taps.swift */,
-				F8CDDDCC258F950400C7678B /* CheckAnagramVC.swift */,
-				F8CDDDD1258F97B400C7678B /* FibonacciVC.swift */,
-				F8CDDD44258F8D7800C7678B /* CurrencyConvertabelVC.swift */,
-				F8CDDDDE258FA1A500C7678B /* ApiRouter.swift */,
-				F8CDDDE3258FA26500C7678B /* ApiKeyModel.swift */,
+				F8CDDE08258FB94D00C7678B /* Model */,
+				F8CDDE07258FB93A00C7678B /* NetworkRouter */,
+				F8CDDE06258FB91300C7678B /* Taps */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -294,6 +291,33 @@
 				F8CDDD42258F8D7800C7678B /* SceneDelegate.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		F8CDDE06258FB91300C7678B /* Taps */ = {
+			isa = PBXGroup;
+			children = (
+				F8CDDD44258F8D7800C7678B /* CurrencyConvertabelVC.swift */,
+				F8CDDDD1258F97B400C7678B /* FibonacciVC.swift */,
+				F8CDDDCC258F950400C7678B /* CheckAnagramVC.swift */,
+				F8CDDDBD258F910E00C7678B /* Taps.swift */,
+			);
+			path = Taps;
+			sourceTree = "<group>";
+		};
+		F8CDDE07258FB93A00C7678B /* NetworkRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F8CDDDDE258FA1A500C7678B /* ApiRouter.swift */,
+			);
+			path = NetworkRouter;
+			sourceTree = "<group>";
+		};
+		F8CDDE08258FB94D00C7678B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8CDDDE3258FA26500C7678B /* ApiKeyModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
